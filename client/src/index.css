@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .theme-dracula {
+    --color-background: #aac4ff;
+    --color-heading: #0c36f5;
+    --color-body: #797bf7;
+    --color-button1-background: #191997;
+    --color-button1-text: #eef1ff;
+    --color-button2-background: #eef1ff;
+    --color-button2-text: #191997;
+  }
+
+  .theme-dark {
+    --color-background: #1a202c;
+    --color-heading: #ffffff;
+    --color-body: #cbd5e0;
+    --color-button1-background: #2c5282;
+    --color-button1-text: #ffffff;
+    --color-button2-background: #ffffff;
+    --color-button2-text: #2c5282;
+  }
+
+  .theme-solarized-light {
+    --color-background: #fdf6e3;
+    --color-heading: #268bd2;
+    --color-body: #073642;
+    --color-button1-background: #268bd2;
+    --color-button1-text: #ffffff;
+    --color-button2-background: #ffffff;
+    --color-button2-text: ;
+  }
+
+  .theme-nord {
+    --color-background: #2e3440;
+    --color-heading: #d8dee9;
+    --color-body: #81a1c1;
+    --color-button1-background: #5e81ac;
+    --color-button1-text: #ffffff;
+    --color-button2-background: #ffffff;
+    --color-button2-text: #5e81ac;
+  }
+
+  .theme-red {
+    --color-background: #fff5f5;
+    --color-heading: #e53e3e;
+    --color-body: #feb2b2;
+    --color-button1-background: #c53030;
+    --color-button1-text: #ffffff;
+    --color-button2-background: #ffffff;
+    --color-button2-text: #c53030;
+  }
+
+  .theme-green {
+    --color-background: #171f1d;
+    --color-heading: #6abf69;
+    --color-body: #2a3e37;
+    --color-button1-background: #2a3e37;
+    --color-button1-text: #ffffff;
+    --color-button2-background: #6abf69;
+    --color-button2-text: #171f1d;
+  }
+}
